@@ -15,6 +15,37 @@ Test Teardown  End Web test
 *** Test Cases ***
 
 
+Cookies
+    Cookies - check if present
+    cookies - text check
+    cookies - close pop-up
+
+Header
+    Header - check if present
+    Header - logo
+    Header - Navigation Bar
+
+Login - elements check
+    Login - check if present
+    Login - click
+    Login page - check
+    Loign page - footer check
+
+Login - Validation check
+    Login - check if present
+    Login - click
+    Login page - FE validation
+
+Login - Facebook login
+    Login - check if present
+    Login - click
+    Login page - Facebook login
+
+Login - Valid login
+    Login - check if present
+    Login - click
+    Login page - Valid login
+
 Add new employee - send invitation
     Login - check if present
     Login - click

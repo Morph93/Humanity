@@ -4,8 +4,8 @@ Library  SeleniumLibrary
 
 
 *** Variables ***
-# the variable will hold the name of the target browser
-${browser}    Chrome            # a default value, if not overwriten
+
+${browser}    Chrome            
 ${URL}   https://www.humanity.com
 
 

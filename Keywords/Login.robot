@@ -51,7 +51,7 @@ Loign page - footer check
 
         element should contain  xpath=/html/body/div[1]/div[3]/div   ©2019 Humanity.com Inc.
 
-Login page - FE validation
+Login page - validation check
 
     #wrong email & pass
     input text  id=email  test@mailinator.com

@@ -17,7 +17,7 @@ Test Teardown  End Web test
 
 Cookies
     Cookies - check if present
-    cookies - text check
+    Cookies - elements check
     cookies - close pop-up
 
 Header
@@ -34,7 +34,7 @@ Login - elements check
 Login - Validation check
     Login - check if present
     Login - click
-    Login page - FE validation
+    Login page - validation check
 
 Login - Facebook login
     Login - check if present

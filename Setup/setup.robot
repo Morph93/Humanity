@@ -7,8 +7,6 @@ Library  SeleniumLibrary
 # the variable will hold the name of the target browser
 ${browser}    Chrome            # a default value, if not overwriten
 ${URL}   https://www.humanity.com
-${username}  fg@mailinator.com
-${password}  Start123!
 
 
 *** Keywords ***

@@ -42,12 +42,14 @@ First employee - send invite
 First employee - activate
 #Not activated
     wait until page contains element  xpath=//*[@id="StaffSchedules"]/ul/li[2]/a
+    wait until element is visible  xpath=//*[@id="StaffSchedules"]/ul/li[2]/a
         click element  xpath=//*[@id="StaffSchedules"]/ul/li[2]/a
-        reload page
+            reload page
 
 #manualy activate all
     wait until page contains element  xpath=//*[@id="_cd_staff"]/div[3]/div[1]/button[2]
     wait until element is visible  xpath=//*[@id="_cd_staff"]/div[3]/div[1]/button[2]
+        element should contain  xpath=//*[@id="_cd_staff"]/div[3]/div[1]/button[2]  Manually Activate All
         click element  xpath=//*[@id="_cd_staff"]/div[3]/div[1]/button[2]
         handle alert  ACCEPT
         reload page
